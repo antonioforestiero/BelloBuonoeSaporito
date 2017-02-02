@@ -1,0 +1,60 @@
+/****************** HEADER *********************/
+
+
+h1 {
+    font-size: 2,5em;
+    font-family:'Indie Flower', cursive;
+    text-align: center;
+    background-color: #3E6990; 
+    padding: 0.5em 0.4em 0.2em 0.4em;
+    margin: 0 auto;
+}
+
+h2 {
+	text-align: center;
+	color: #ffffff;
+	background-color: #3E6990; 
+    margin: 0px auto;
+    padding: 0.1em 0.4em 0.2em 0.4em;
+}
+
+h3 {
+    margin-left: 2em;
+}
+
+body {
+	font-family: Corbel, arial;
+	color: #000000;
+}
+
+
+#header a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
+/****************** CONTENUTO *********************/
+#conenuto a {
+	text-decoration: none;
+}
+
+#contenuto ul {
+	color: #00000;
+	list-style-type: none;
+	
+}
+
+
+contenuto li:hover {
+    background-color: #3E6990;
+}
+
+
+/****************** PAGINE "PRIMI PIATTI, SECONDI E CONTORNI, DOLCI ALTRO" *********************/
+
+
+#foto li {
+    display: inline-block;
+    list-style-type: none;
+}

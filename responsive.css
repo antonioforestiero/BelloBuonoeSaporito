@@ -1,0 +1,13 @@
+/** RESPONSIVE PER FOTO PRIMI PIATTI E SECONDI ECC. ***************/
+
+
+@media screen and (min-width: 480px) {
+	#gallery li {
+		width: 28.2%;
+	}
+}
+
+@media screen and (min-width: 720px) {
+	#gallery li {			
+	}
+}

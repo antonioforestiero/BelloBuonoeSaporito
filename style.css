@@ -39,15 +39,42 @@ section.home p {
 	text-align: center;
 	padding-left: 3%;
 	padding-right: 3%;
+	font-weight: bold;
+	font-size: 1em;
 
 }
 
-section.home h4 {
+
+/******************  PAGINA HOME FOTO e BANNER *********************/
+
+.banner {
 	text-align: center;
+	padding: 400px 0 30px 0;
+	background-image: url(immagini/food2.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat; 
+	background-attachment: fixed;
 }
 
+.banner2 p {
+	font-size: 1.3em;
+	color: #ffffff;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+	margin-bottom: 0;
+}
 
+.banner2 {
+	padding: 400px 0 30px 0;
+	background-image: url(immagini/food.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat; 
+	background-attachment: fixed;
 
+}
 
 /******************  VOCI (PRIMI PIATTI, SECONDI ECC.) *********************/
 
@@ -56,9 +83,9 @@ section.home h4 {
 	text-align: center;
 	background-color: #396083;
 	margin-top: 0px;
+	margin-bottom: 0;
 	padding: 0px 0px 0px 0px;
 }
-
 .nav li {
 	display: inline-block;
 	margin: 0 10px 0 10px;
@@ -90,17 +117,24 @@ section li a {
 	text-decoration: none;
 }
 
-#wrapper {
+.wrapper {
 	max-width: 940px;
 	margin: 0 auto;
 	padding: 0 5% 5px 5%;
+	
 }
 
+.clearfix:after {
+	content: " ";
+	display: table;
+	clear: both;
+	}
 
 #gallery {
 	list-style: none;
 	margin: 0;
 	padding: 0;
+	
 }
 
 #gallery li {
@@ -120,26 +154,38 @@ img {
 	margin: 0;
 	padding: 5%;
 }
+
 /****************** FOOTER *********************/
 
 footer {
+	  
+	background-color: #3E6990;
+	padding: 5px 5px 10px 5px;
 	font-size: 0.85em;
 	clear: both;
-	padding-top: 10%;
-	max-width: 940px;
-	display: inline-block;
-	float: left;
-	padding: 0;
+	margin-bottom: 0;
 
 }
 
 footer img {
-	max-width: 15%;
-	float: left;
-	margin-left: 5%;
-	margin-bottom: 3%;
-	margin-top: 0%;
+	max-width: 9%;
+	margin: 0 1em 0 0;
 }
 
+footer img.instagram {
+	
+}
 
+footer img.facebook {
+	padding-left: 3em;
+}
 
+footer p {
+	color: #ffffff;
+	display: inline-block;
+	margin-bottom: 0;
+}
+
+.container {
+	min-height: 100vh;
+}

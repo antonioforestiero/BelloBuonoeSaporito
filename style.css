@@ -111,6 +111,10 @@ section.home p {
 .nav li.altro {
 	background-color: #3E6990;
 }
+
+ul.nav {
+	margin-bottom: 2.3em;
+}
 /****************** contenuto PAGINE "PRIMI PIATTI, SECONDI E CONTORNI, DOLCI ALTRO" *********************/
 
 section li a {

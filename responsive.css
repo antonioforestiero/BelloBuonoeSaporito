@@ -16,6 +16,16 @@
 	background-attachment: fixed;
 	}
 
+	.banner2 {
+	text-align: center;
+	padding: 25em 0 2em 0;
+	background-image: url(immagini/food.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat; 
+	background-attachment: fixed;
+	}
+
 	.banner2 p {
 	font-size: 1.3em;
 	color: #ffffff;
@@ -43,6 +53,17 @@
 	background-attachment: fixed;
 	}
 
+	.banner2 {
+	text-align: center;
+	padding: 25em 0 2em 0;
+	background-image: url(immagini/food.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat; 
+	background-attachment: fixed;
+	}
+
+	
 	.banner2 p {
 	font-size: 1.3em;
 	color: #ffffff;

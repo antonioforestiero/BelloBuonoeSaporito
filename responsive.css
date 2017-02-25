@@ -35,13 +35,11 @@
 	margin-bottom: 0;
   	 }
 
+
 }
 
 @media screen and (min-width: 720px) {
 	
-	footer img {
-		max-width: 5%;
-	}
 
 	.banner {
 	text-align: center;
@@ -73,12 +71,9 @@
 	margin-bottom: 0;
   	 }
 
-
-@media screen and (min-width: 500px) {
-	
-	footer img {
-		max-width: 5%;
-	}
-
+footer img {
+		max-width: 50px;
+		max-height: 50px;
+       }
 
 }

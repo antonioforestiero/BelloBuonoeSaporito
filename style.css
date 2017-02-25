@@ -112,6 +112,10 @@ section.home p {
 	background-color: #3E6990;
 }
 
+.nav li.contatti {
+	background-color: #3E6990;
+}
+
 section#spazio {
 	margin-top: 2em;
 	margin-bottom: 2em;
@@ -148,6 +152,8 @@ section li a {
 	width: 45%;
 	margin: 2.5%;
 	background-color: #f5f5f5;
+	margin-bottom: 1em;
+	margin-top: 1em;
 }
 
 
@@ -161,6 +167,44 @@ iframe {
 	margin: 0;
 	padding: 5%;
 }
+
+/***************CONTATTI*****************/
+
+.foto-profilo {
+	display: block;
+	border-radius: 100%;
+	max-width: 200px;
+	margin: 0 auto 40px;
+}
+
+#contatti-info {
+	list-style: none;
+	
+}
+
+
+#contatti-info a {
+	color: #000000;
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 10px;
+}
+
+#contatti-info li.phone a {
+	background-image: url(immagini/phone.png); 
+}
+
+#contatti-info li.mail a {
+	background-image: url(immagini/mail.png); 
+}
+
+#contatti-info li.twitter a {
+	background-image: url(immagini/twitter2.png); 
+	       }
+
 
 /****************** FOOTER *********************/
 

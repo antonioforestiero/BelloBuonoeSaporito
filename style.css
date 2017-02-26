@@ -193,9 +193,6 @@ iframe {
 	margin: 0 0 10px;
 }
 
-#contatti-info li.phone a {
-	background-image: url(immagini/phone.png); 
-}
 
 #contatti-info li.mail a {
 	background-image: url(immagini/mail.png); 

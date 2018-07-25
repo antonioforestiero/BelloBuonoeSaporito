@@ -213,6 +213,10 @@ iframe {
 #contatti-info li.fb a {
 	background-image: url(immagini/fb1.png); 
 	       }
+
+#contatti-info li.instagram a {
+	background-image: url(immagini/instagram.ico); 
+	       }
 /****************** FOOTER *********************/
 
 footer {
